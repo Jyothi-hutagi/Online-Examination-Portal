@@ -155,7 +155,7 @@ export  default class Quiz1 extends Component {
                   <h1>Congratulations you have completed the quiz!</h1>
                   <p className="text">Your score is : {score} &nbsp; of &nbsp; {Object.keys(questions).length}</p>
                   <p className="text">Thank you!!!</p>
-                  <a href="./Student Dashboard"><button id="dash">Dashboard</button></a>
+                  <a href="/StudentDashboard"><button id="dash">Dashboard</button></a>
                    <a href="/"><button id="logout">Logout</button></a>
 
                   </div>
